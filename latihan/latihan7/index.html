@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan7</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="container">
+
+      <header class="header">
+        <div class="hero">
+            <h2 class="heading">MU Store</h2>
+            <p class="sub-heading">Home & Away Jersey</p>
+        </div>
+        <div class="feature kit-1">
+            <h4 class="price">$99,9</h4>
+            <p class="item">Home Jersey</p>
+        </div>
+        <div class="feature kit-2">
+            <h4 class="price">$89,9</h4>
+            <p class="item">Away Jersey</p>
+        </div>
+      </header>
+
+<nav class="menu">
+    <div class="menu-toggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="brand">
+        <h1>MU Store</h1>
+    </div>
+    <ul class="menu-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+    </ul>
+</nav>
+
+<section class="services">
+    <div class="service">
+        <div class="icon"></div>
+        <h3>Home Jersey</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+    </div>
+    <div class="service">
+        <div class="icon"></div>
+        <h3>Away Jersey</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+    </div>
+    <div class="service">
+        <div class="icon"></div>
+        <h3>Retro Jersey</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+    </div>
+    <div class="service">
+        <div class="icon"></div>
+        <h3>Gallery</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+    </div>
+</section>
+
+<section class="gallery">
+    <h2>Gallery</h2>
+    <img src="img/j1.jpg" alt="">
+    <img src="img/j2.jpg" alt="">
+    <img src="img/j3.jpg" alt="">
+    <img src="img/j4.jpg" alt="">
+    <img src="img/j5.jpg" alt="">
+    <img src="img/j6.jpg" alt="">
+    <img src="img/j7.jpg" alt="">
+    <img src="img/j8.jpg" alt="">
+</section>
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input')
+        const nav= document.querySelector('nav ul')
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
